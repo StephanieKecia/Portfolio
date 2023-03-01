@@ -16,7 +16,7 @@ main{
 /*Background*/
 
 #home{
-    background-image: url(../imagens/pexels-photo-2653362.webp);
+    /*background-image: url(../imagens/pexels-photo-2653362.webp);*/
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
