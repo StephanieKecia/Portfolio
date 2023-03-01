@@ -11,6 +11,8 @@
 main{
     max-width: 700px;
     margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 62%);
 }
 
 /*Background*/
@@ -26,6 +28,7 @@ main{
 
 #portfolio{
     background-color: white;
+    height: 600px;
 }
 
 #portfolio>h2{
@@ -33,7 +36,88 @@ main{
     font-size: 35px;
     color: #9E640E;
     text-shadow: 1px 1px 1px rgba(91, 91, 91, 0.777);
+    margin-bottom: 15px;
 }
+
+.card{
+    background-color: white;
+    margin-top: 15px;
+    padding: 25px;
+    padding-top: 10px; /*ATENÇÃO*/
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px #323333;
+    display: inline-block;
+    flex: 0 0 25%;
+    min-width: 45%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.projetos{
+    max-width: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-img-top{
+
+}
+
+.card-title{
+    color: #9E640E;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 1em;
+}
+
+.card-text{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.buutton{
+    text-decoration: none;
+    background-color: #d48918;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    
+    
+}
+
+.buutton:hover{
+background-color: #9E640E;
+}
+
+
+@media screen and (max-width: 675px){
+    #portfolio{
+        height: 950px;
+    }
+
+    .projetos{
+        display: inline-block;
+        padding: 30px;
+        padding-top: 10px;
+        text-align: center;
+        margin: 3px;
+        border-radius: 8px;
+    }
+
+    .card{
+        margin: auto;
+        margin-top: 35px;
+
+
+    }
+}
+
 
 #habilidades{
     background-image: url('../imagens/programar.jpg');
@@ -50,6 +134,7 @@ main{
     color: #d48918;
     text-shadow: 1px 1px 1px rgba(91, 91, 91, 0.962);
     margin: auto;
+    margin-bottom: 15px;
 }
 
 
@@ -83,6 +168,7 @@ main{
     font-size: 35px;
     color: #9E640E;
     text-shadow: 1px 1px 1px rgba(91, 91, 91, 0.777);
+    margin-bottom: 15px;
 }
 
 #formação{
@@ -94,7 +180,10 @@ main{
     font-size: 35px;
     color: #9E640E;
     text-shadow: 1px 1px 1px rgba(91, 91, 91, 0.777);
+    margin-bottom: 15px;
 }
+
+
 
 #experiência{
     background-color: white;
@@ -105,6 +194,7 @@ main{
     font-size: 35px;
     color: #9E640E;
     text-shadow: 1px 1px 1px rgba(91, 91, 91, 0.777);
+    margin-bottom: 15px;
 }
 
 #contato {
@@ -321,6 +411,6 @@ footer>p{
     max-width: 700px;
     margin: auto;
     background-color: #f1f1f4;
-
+    border-radius: 0px 0px 10px 10px;
 }
 
