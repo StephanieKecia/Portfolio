@@ -24,6 +24,71 @@ main{
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    height: 600px;
+}
+
+
+#home>div>h2{
+    color: #f1f1f4;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 60px;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.392);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.spanhome{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #d48918;
+}
+
+#home>div>p>a{
+    color: #d48918;
+    text-decoration: none;
+}
+
+#home>div>p>a:hover{
+    text-decoration: underline;
+}
+
+.js{
+    block-size: 58px;
+    background-color: white;
+    padding-bottom: 4px;
+    padding-top: 2px; 
+}
+
+.teste>span{
+    text-align: center;
+    width: 100%;    
+}
+
+
+
+.texthome{
+    padding-top: 95px;
+    color: #f1f1f4;
+    font-size: 22px;
+    line-height: 28px;
+    height: auto;
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.homecont{
+    padding-top: 45px;
+    color: #f1f1f4;
+    font-size: 22px;
+    line-height: 28px;
+    height: auto;
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 #portfolio{
@@ -152,8 +217,8 @@ main{
 }
 
 #formação{
-    background-color: #f1f1f4;
-    height: 3500px;
+    background-color: white;
+    height: 2300px;
 }
 
 #formação>h2{
@@ -179,6 +244,7 @@ main{
 .divfor2>p{
     text-align: justify;
     color: #323333c8;
+    line-height: 25px;
 }
 
 .year{
@@ -199,7 +265,7 @@ main{
 
 
 #experiência{
-    background-color: white;
+    background-color: #f1f1f4;
 }
 
 #experiência>h2{
@@ -228,6 +294,7 @@ main{
     text-align: justify;
     margin-right: 80px;
     margin-top: 15px;
+    color: #323333c8;
 }
 
 #contato {
@@ -350,44 +417,6 @@ main>section{
     height: 400px;
 }
 
-#home>div>h1{
-    color: #c1c7d9;
-    font-size: 2em;
-    text-align: center;
-    padding-top: 20px;
-    text-transform: uppercase;
-}
-
-#home>div>h2{
-    color: #9E640E;
-    font-size: 2.5em;
-    text-align: center;
-    padding-top: 20px;
-    text-transform: uppercase;
-    text-shadow: 0.5px 0.5px hsla(34, 65%, 54%, 0.89);
-}
-
-#home>div>p{
-    padding-top: 35px;
-    font-size: 22px;
-    padding-left: 20px;
-    line-height: 28px;
-    text-shadow: 0.5px 0.5px rgba(255, 255, 255, 0.392);
-
-}
-
-.js{
-    block-size: 58px;
-    background-color: white;
-    padding-bottom: 4px;
-    padding-top: 2px; 
-}
-
-.teste>span{
-    text-align: center;
-    width: 100%;    
-}
-
 .contato{
     background-color: #c1c7d9;
 }
@@ -443,7 +472,7 @@ footer>p{
 .footer{
     max-width: 700px;
     margin: auto;
-    background-color: #f1f1f4;
+    background-color: white;
     border-radius: 0px 0px 10px 10px;
 }
 
