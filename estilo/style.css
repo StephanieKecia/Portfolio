@@ -96,28 +96,6 @@ background-color: #9E640E;
 }
 
 
-@media screen and (max-width: 675px){
-    #portfolio{
-        height: 950px;
-    }
-
-    .projetos{
-        display: inline-block;
-        padding: 30px;
-        padding-top: 10px;
-        text-align: center;
-        margin: 3px;
-        border-radius: 8px;
-    }
-
-    .card{
-        margin: auto;
-        margin-top: 35px;
-
-
-    }
-}
-
 
 #habilidades{
     background-image: url('../imagens/programar.jpg');
@@ -195,6 +173,21 @@ background-color: #9E640E;
     color: #9E640E;
     text-shadow: 1px 1px 1px rgba(91, 91, 91, 0.777);
     margin-bottom: 15px;
+}
+
+.title3{
+    color: #9E640E;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 1.2em;
+}
+
+.textex{
+    line-height: 25px;
+    text-align: justify;
+    margin-right: 80px;
+    margin-top: 15px;
 }
 
 #contato {
@@ -414,3 +407,28 @@ footer>p{
     border-radius: 0px 0px 10px 10px;
 }
 
+@media screen and (max-width: 675px){
+    #portfolio{
+        height: 950px;
+    }
+
+    .projetos{
+        display: inline-block;
+        padding: 30px;
+        padding-top: 10px;
+        text-align: center;
+        margin: 3px;
+        border-radius: 8px;
+    }
+
+    .card{
+        margin: auto;
+        margin-top: 35px;
+    }
+
+    #habilidades>section>div{
+        margin-bottom: 30px;
+    }
+
+    
+}
