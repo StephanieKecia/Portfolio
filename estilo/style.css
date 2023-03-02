@@ -71,9 +71,9 @@ main{
 .card-title{
     color: #9E640E;
     font-weight: bold;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 0px;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .card-text{
