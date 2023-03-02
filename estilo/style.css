@@ -519,6 +519,16 @@ footer>p{
     margin-right: 70px;
 }
 
+.buttonex{
+    font-size: 28px;
+    color: #b5b5b5;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 350px;
+    margin-right: 70px;
+}
 
 @media screen and (max-width: 675px){
     #portfolio{
@@ -581,6 +591,17 @@ footer>p{
         position: absolute;
         text-align: center;
         margin-top: 28px;
+        margin-left: 188px;
+        margin-right: 70px;
+    }
+
+    .buttonex{
+        font-size: 28px;
+        color: #b5b5b5;
+        text-decoration: none;
+        position: absolute;
+        text-align: center;
+        margin-top: 0px;
         margin-left: 188px;
         margin-right: 70px;
     }
