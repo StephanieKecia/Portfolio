@@ -335,7 +335,7 @@ header{
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
-    width: 100%;    
+    width: 100%;  
 }
 
 
@@ -363,7 +363,7 @@ header > section > ul > a:hover{
 /*CORPO*/
 
 body{
-    background-color: #323333;
+    background-color: #b5b5b5;
 
 }
 
@@ -414,7 +414,7 @@ main{
 }
 
 main>section{
-    height: 400px;
+    min-height: 400px;
 }
 
 .contato{
@@ -476,6 +476,47 @@ footer>p{
     border-radius: 0px 0px 10px 10px;
 }
 
+.button{
+    border: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.buttonret{
+    font-size: 28px;
+    color: #b5b5b5;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 250px;
+    margin-right: 70px;
+    
+}
+
+.buttonfor{
+    font-size: 28px;
+    color: #b5b5b5;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 350px;
+    margin-right: 70px;
+}
+
+.buttonport{
+    font-size: 28px;
+    color: #b5b5b5;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 350px;
+    margin-right: 70px;
+}
+
+
 @media screen and (max-width: 675px){
     #portfolio{
         height: 950px;
@@ -500,11 +541,50 @@ footer>p{
     }
     
     #formação{
-        height: 3750px;
+        height: 3250px;
     }
 
     #experiência{
         height: 500px;
     }
     
+    .buttonret{
+        font-size: 24px;
+        color: #b5b5b5;
+        text-decoration: none;
+        position: absolute;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 120px;
+        margin-right: 70px;
+        
+    }
+
+    .buttonfor{
+        font-size: 28px;
+        color: #b5b5b5;
+        text-decoration: none;
+        position: absolute;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 188px;
+        margin-right: 70px;
+    }
+
+    .buttonport{
+        font-size: 28px;
+        color: #b5b5b5;
+        text-decoration: none;
+        position: absolute;
+        text-align: center;
+        margin-top: 28px;
+        margin-left: 188px;
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #formação{
+        height: 3850px;
+    }
 }
