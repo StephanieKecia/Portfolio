@@ -12,7 +12,7 @@ main{
     max-width: 700px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 0px 0px 10px rgb(0 0 0 / 62%);
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 62%);
 }
 
 /*Background*/
@@ -474,6 +474,8 @@ footer>p{
     margin: auto;
     background-color: white;
     border-radius: 0px 0px 10px 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 62%);
 }
 
 .button{
