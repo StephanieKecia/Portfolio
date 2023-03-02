@@ -64,9 +64,9 @@ main{
     margin-right: 10px;
 }
 
-.card-img-top{
+/*.card-img-top{
     
-}
+}*/
 
 .card-title{
     color: #9E640E;
@@ -153,6 +153,7 @@ main{
 
 #formação{
     background-color: #f1f1f4;
+    height: 3500px;
 }
 
 #formação>h2{
@@ -163,6 +164,38 @@ main{
     margin-bottom: 15px;
 }
 
+.divfor{
+    display: flex-box;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.divfor2{
+    margin-left: 70px;
+    margin-top: 20px;  
+    margin-right: 80px;
+}
+
+.divfor2>p{
+    text-align: justify;
+    color: #323333c8;
+}
+
+.year{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.h3for{
+    font-weight: 500;
+    margin-top: 14px;
+    color: #d48918;
+}
+
+.spanfor{
+    font-weight: 300;
+    font-size: 14px;
+}
 
 
 #experiência{
@@ -183,6 +216,7 @@ main{
     padding-top: 30px;
     padding-bottom: 0px;
     font-size: 1.2em;
+    text-transform: uppercase;
 }
 
 .divex{
