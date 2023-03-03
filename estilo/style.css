@@ -531,6 +531,8 @@ footer>p{
 }
 
 @media screen and (max-width: 675px){
+
+    
     #portfolio{
         height: 950px;
     }
@@ -565,33 +567,38 @@ footer>p{
         font-size: 24px;
         color: #b5b5b5;
         text-decoration: none;
-        position: absolute;
+        /*position: absolute;*/
+        position: relative;
         text-align: center;
-        margin-top: 25px;
+        /*margin-top: 25px;
         margin-left: 120px;
-        margin-right: 70px;
-        
+        margin-right: 70px;*/
+        margin-left: 330px;        
+
     }
 
     .buttonfor{
         font-size: 28px;
         color: #b5b5b5;
         text-decoration: none;
-        position: absolute;
+        /*position: absolute;*/
+        position: relative;
         text-align: center;
         margin-top: 10px;
-        margin-left: 188px;
+        margin-left: 0px;
         margin-right: 70px;
+        
     }
 
     .buttonport{
         font-size: 28px;
         color: #b5b5b5;
         text-decoration: none;
-        position: absolute;
+        /*position: absolute;*/
+        position: relative;
         text-align: center;
         margin-top: 28px;
-        margin-left: 188px;
+        margin-left: 0px;
         margin-right: 70px;
     }
 
@@ -599,16 +606,19 @@ footer>p{
         font-size: 28px;
         color: #b5b5b5;
         text-decoration: none;
-        position: absolute;
+        /*position: absolute;*/
+        position: relative;
         text-align: center;
         margin-top: 0px;
-        margin-left: 188px;
+        margin-left: 0px;
         margin-right: 70px;
     }
+    
 }
 
 @media screen and (max-width: 400px){
     #formação{
         height: 3850px;
     }
+
 }
