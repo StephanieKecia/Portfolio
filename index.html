@@ -1,316 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio - Stéphanie Kécia</title>
-    <link rel="stylesheet" href="estilo/style.css">
-    <link rel="shortcut icon" href="imagens/code-slash-outline.svg" type="image/x-icon">
-</head>
+    <link rel="shortcut icon" href="../imagens/code-slash-outline.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
 
+
+</head>
 <body>
-    <header id="header">
-        <section>
-            <ul>
-                <a href="#home">Home</a>
-                <a href="#portfolio">Portfólio</a>
-                <a href="#habilidades">Habilidades</a>
-                <!--<a href="#serviços">Serviços</a>-->
-                <a href="#formação">Formação</a>
-                <a href="#experiência">Experiência</a>
-                <a href="#footer">Contato</a>
-            </ul>
-        </section>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Portfólio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  <!-- <a class="nav-link" href="#">Habilidades</a> -->
+                  <a class="nav-link" href="projetos.html">Projetos</a>
+                  <a class="nav-link" href="formacao.html">Formação</a>
+                  <a class="nav-link" href="https://drive.google.com/drive/folders/1z-dunu3SmwRz6UQWZYhXWQS5mCsTFL_9?usp=share_link" target="_blank">Certificados</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <main>
-        <section id="home">
-            <div>
-                <h2 class="homeh2">Stéphanie Kécia</h2>
-                <p class="spanhome">Front End Developer</p>
-                <p class="texthome">Desenvolvimento Web - <br> Programação de sites responsivos, e dinâmicos usando
-                    HTML5, CSS3 e Javascript. <br> </p>
-                <p class="homecont">Para saber mais <a href="#footer">entre em contato.</a> </p>
+    <main class="home__main">  
+        <!-- CARROSEL 
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        </section>
-
-
-        <section id="portfolio">
-            <h2>Portfólio</h2>
-            <div>
-                <section class="projetos">
-                    <div class="card" style="width: 18rem;">
-                        <!--<img src="" class="card-img-top" alt="...">-->
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto Android</h5>
-                            <p class="card-text">Principais características: Site responsivo com textos e imagens que
-                                facilitam o usuário.</p>
-                            <a href="https://projetoandroidsteph.netlify.app/" class="buutton" role="button"
-                                target="_blank">Visualizar Projeto</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <!--<img src="..." class="card-img-top" alt="...">-->
-                        <div class="card-body">
-                            <h5 class="card-title">Barbearia</h5>
-                            <p class="card-text">Principais características: Várias páginas interligadas criadas com o
-                                intuito de ser um site comércial.</p>
-                            <a href="https://barbeariasteph.netlify.app/index.html" class="buutton" role="button"
-                                target="_blank">Visualizar Projeto</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <!--<img src="..." class="card-img-top" alt="...">-->
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto com Flex</h5>
-                            <p class="card-text">Principais características: Utilização de flexbox e grid.</p>
-                            <a href="https://projetoflexsteph.netlify.app/" class="buutton" role="button"
-                                target="_blank">Visualizar Projeto</a>
-                        </div>
-                    </div>
-                </section>
-                <a href="#header" class="buttonport"><ion-icon name="arrow-up-circle-outline"
-                        class="buttonret"></ion-icon></a>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagens/dev-front-end.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block h-50">
+                  <h5 class="fonte-titulo display-4">First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>     
             </div>
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> -->
+         
 
-        <section id="habilidades">
-            <h2>Habilidades</h2>
+        <!-- TESTE HOME 1 (IMAGEM COM PROBLEMA DE RESPONSIVIDADE EMPURRANDO O TEXTO) <section class="d-flex justify-content-evenly m-5 p-5  align-self-center ">
+          <div class="home__conteudo">
+            <h1 class="titulo__font">Stéphanie Kécia</h1>
+            <h2 class="titulo__subhome fw-semibold">Front End Developer</h2>
+            <p>Desenvolvimento Web -
+                Programação de sites responsivos, e dinâmicos usando HTML5, CSS3 e Javascript.</p>
+            <a href="formacao.html" type="button" class="btn btn-secondary ">Saiba mais</a>
 
-            <section>
-                <div>
-                    <img src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/128/Other-html-5-icon.png"
-                        width="64" height="64" class="padraohab">
-                    <p>HTML5</p>
-                </div>
-
-
-                <div>
-                    <img src="https://icons.iconarchive.com/icons/martz90/hex/128/css-3-icon.png" width="64" height="64"
-                        class="padraohab">
-                    <p>CSS3</p>
-                </div>
-                <div>
-                    <img src="imagens/javascript-39395.png" alt="icone javascript" class="js">
-                    <p>Javascript</p>
-                </div>
-            </section>
-
-
-        </section>
-
-        <!-- <section id="serviços">
-            <h2>Serviços</h2>
-            <div>
-                <ul>
-                    <li>Site 1</li>
-                    <li>Site 2</li>
-                    <li>Site 3</li>
-                </ul>
-            </div>
-        </section>-->
-
-        <section id="formação">
-            <h2>Formação</h2>
-            <div>
-                <!--<div>
-                    <p>2022</p>
-                    <h3>Javascript</h3>
-                    <span></span>
-                </div>
-                <div>
-                    <p>Curso realizado ...</p>
-                </div>-->
-                <ul>
-                    <li class="testelista">
-                        <h3 class="title3">Curso em Vídeo</h3>
-                        <div class="divfor">
-                            <div>
-                                <p class="year">2022</p>
-                                <h3 class="h3for">HTML5 e CSS3</h3>
-                                <span class="spanfor">Módulo 1/2/3</span>
-                            </div>
-                            <div class="divfor2">
-                                <p>
-                                    Criação sites usando a linguagem de marcação hipertexto (HTML) e folhas de estilo em
-                                    cascata (CSS). Edição capaz de tornar o site responsivo facilitando o acesso em
-                                    diferentes formatos de aparelhos.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="divfor">
-                            <div>
-                                <p class="year">2022</p>
-                                <h3 class="h3for">Javascript</h3>
-                                <span class="spanfor">Módulo 1</span>
-                            </div>
-                            <div class="divfor2">
-                                <p>Utilização da linguagem para tornar o site mais dinâmico e interativo, facilitando
-                                    assim a acessibilidade dos usuários e a navegação do mesmo.</p>
-                            </div>
-                        </div>
-                        <div class="divfor">
-                            <div>
-                                <p class="year">2022</p>
-                                <h3 class="h3for">Git e Github</h3>
-                                <span class="spanfor">Módulo 1</span>
-                            </div>
-                            <div class="divfor2">
-                                <p>Utilização do Github como repositório de códigos e hospedagem de sites como também o
-                                    portfólio.</p>
-                            </div>
-                        </div>
-                        <div class="divfor">
-                            <div>
-                                <p class="year">2022</p>
-                                <h3 class="h3for">Python</h3>
-                                <span class="spanfor">Módulo 1/2/3</span>
-                            </div>
-                            <div class="divfor2">
-                                <p>Introdução a linguagem, seus conceitos e alguns recursos básicos. <br> Estruturas de
-                                    repetição, conceitos e usabilidades. <br> Estruturas de dados, funções, módulos e
-                                    tratamento de erros.</p>
-                            </div>
-                        </div>
-                        <div class="divfor">
-                            <div>
-                                <p class="year">2022</p>
-                                <h3 class="h3for">MySQL</h3>
-                                <span class="spanfor">Módulo 1</span>
-                            </div>
-                            <div class="divfor2">
-                                <p>Criação e atualização de Banco de Dados utilizando a linguagem SQL e a plataforma
-                                    PhpMyAdmin.</p>
-                            </div>
-                        </div>
-                        <div class="divfor">
-                            <div>
-                                <p class="year">2022</p>
-                                <h3 class="h3for">Hardware</h3>
-                                <span class="spanfor">Módulo 1</span>
-                            </div>
-                            <div class="divfor2">
-                                <p>Montagem e manutenção de computadores para programadores.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <h3 class="title3">Alura</h3>
-                        <div class="divfor">
-                            <div>
-                                <p class="year">2022</p>
-                                <h3 class="h3for">HTML5 e CSS3</h3>
-                                <span class="spanfor">Módulo 1/2/3/4</span>
-                            </div>
-                            <div class="divfor2">
-                                <p>
-                                    Criação sites usando a linguagem de marcação hipertexto (HTML) e folhas de estilo em
-                                    cascata (CSS). Edição capaz de tornar o site responsivo facilitando o acesso em
-                                    diferentes formatos de aparelhos. Trabalhando com listas, tabelas e formulários,
-                                    utilizando também flexbox e grid.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="divfor">
-                            <div>
-                                <p class="year">2022</p>
-                                <h3 class="h3for">Javascript</h3>
-                                <span class="spanfor">Módulo 1/2</span>
-                            </div>
-                            <div class="divfor2">
-                                <p>
-                                    Utilização da linguagem para tornar o site mais dinâmico e interativo, facilitando
-                                    assim a acessibilidade dos usuários e a navegação do mesmo. <br>
-                                    Utilização de laços e listas dentro da linguagem.</p>
-                            </div>
-                        </div>
-                        <div class="divfor">
-                            <div>
-                                <p class="year">2022</p>
-                                <h3 class="h3for">Python</h3>
-                                <span class="spanfor">Módulo 1/2</span>
-                            </div>
-                            <div class="divfor2">
-                                <p>Introdução a linguagem, seus conceitos e alguns recursos básicos. <br> Estruturas de
-                                    repetição, conceitos e usabilidades. <br> Estruturas de dados, funções, módulos e
-                                    tratamento de erros.</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
-                <a href="#header" class="buttonfor"><ion-icon name="arrow-up-circle-outline"
-                        class="buttonret"></ion-icon></a>
+            <div class="m-4">
+              <a href="https://www.instagram.com/stephaniekecia/" target="_blank" type="button" class="btn btn-outline-primary rounded-circle m-1"><ion-icon name="logo-instagram"></ion-icon></a>
+              <a href="https://www.linkedin.com/in/st%C3%A9phanie-k%C3%A9cia/" target="_blank" type="button" class="btn btn-outline-primary rounded-circle m-1"><ion-icon
+                name="logo-linkedin"></ion-icon></a>
+              <a href="https://github.com/StephanieKecia" target="_blank" type="button" class="btn btn-outline-primary rounded-circle m-1"><ion-icon
+                name="logo-github"></ion-icon></a>
             </div>
 
-        </section>
+          </div >
+          <div><img src="imagens/6042470.jpg" alt="" class="home__imagem teste__imagem justify-content-evenly m-5 p-5  align-self-center d-flex"></div>
+        </section> -->
 
-        <section id="experiência">
-            <h2>Experiência</h2>
-            <div>
-                <ul>
-                    <li>
-                        <h3 class="title3">Estágio APAE</h3>
-                        <div class="divex">
-                            <p class="textex">Auxílio na resolução de problemas relacionados ao funcionamento dos
-                                computadores - Hardware. <br>
-                                Cadastro e atualizações de funcionários no servidor.
-                                <br>
-                                Auxílio no funcionamento do sistema da associação diretamente ligado ao Banco de Dados -
-                                MySQL.
-                            </p>
-                        </div>
-                    </li>
-                </ul>
 
-                <a href="#header" class="buttonex"><ion-icon name="arrow-up-circle-outline"
-                class="buttonret"></ion-icon></a>
+        <div class="container__formacao">
+            <!-- <li class="timeline-item ml-3 pb-4"> -->
+              <div class="timeline-arrow"></div>
+              <div class="row no-gutter teste_home">
+                <div class="col-lg-5 mb-4 mb-lg-0 text-center home__conteudo">
+                  <h1 class="h6 mb-0 titulo__font">Stéphanie Kécia</h1>
+                  <h2 class="mb-0 titulo__subhome fw-semibold">Front End Developer</h2>
+                  <p class="font-weight-bold mb-2 text-small">Desenvolvimento Web -
+                    Programação de sites responsivos, e dinâmicos usando HTML5, CSS3 e Javascript.</p>
+                  <a href="formacao.html" type="button" class="btn btn-dark ">Saiba mais</a>
+                  <!-- <span class="small text-muted">São Paulo</span> -->
+                  <div class="m-4">
+                    <a href="https://www.instagram.com/stephaniekecia/" target="_blank" type="button" class="btn btn-outline-secondary rounded-circle m-1"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/st%C3%A9phanie-k%C3%A9cia/" target="_blank" type="button" class="btn btn-outline-secondary rounded-circle m-1"><ion-icon
+                      name="logo-linkedin"></ion-icon></a>
+                    <a href="https://github.com/StephanieKecia" target="_blank" type="button" class="btn btn-outline-secondary rounded-circle m-1"><ion-icon
+                      name="logo-github"></ion-icon></a>
+                  </div>
 
-            </div>
-        </section>
-
-        <!--<section id="contato" class="contato">
-            <h2>Contato</h2>
-            <section class="teste">
-                <div>
-                    <p><ion-icon name="location-outline"></ion-icon><br>
-                    Localização</p>
                 </div>
-                <div>
-                    <p>icone <br>Whatsapp</p>
-                </div>
-                <div>
-                    <p>icone <br>Email<br></p>
-                </div>
-            </section> -->
 
-        </section> <!--ATENÇÃO PODE APAGAR?-->
-
+                <div class="col-lg-7 home__imagem">
+                  <img src="imagens/6042470.jpg" alt="" class=" img-fluid">
+                  <!-- <p class="text-muted">Criação sites usando a linguagem de marcação hipertexto (HTML) e folhas de estilo em cascata (CSS). Edição capaz de tornar o site responsivo facilitando o acesso em diferentes formatos de aparelhos. Trabalhando com listas, tabelas e formulários, utilizando também flexbox e grid.
+                  </p> -->
+                </div>
+              </div>
+            <!-- </li> -->
     </main>
-    <footer>
-        <section class="footer" id="footer">
-            <h1>Stéphanie Kécia</h1>
-            <h2>Desenvolvedor Front End</h2>
-            <p>Entre em contato através das redes sociais.</p>
-            <span>
-                <abbr title="Instagram"><a href="https://www.instagram.com/stephaniekecia/" target="_blank"><abbr
-                            title="Instagram"><ion-icon name="logo-instagram"></ion-icon></abbr></a></abbr>
-                <abbr title="LinkedIn"><a href="https://www.linkedin.com/in/st%C3%A9phanie-k%C3%A9cia/"
-                        target="_blank"><abbr title="Lindekin"><ion-icon
-                                name="logo-linkedin"></ion-icon></abbr></a></abbr>
-                <!--<abbr title="Email"><a href="#" target="_blank"><ion-icon name="mail-outline"></ion-icon></a></abbr>-->
-
-                <abbr title="Github"><a href="https://github.com/StephanieKecia" target="_blank"><ion-icon
-                            name="logo-github"></ion-icon></a></abbr>
-            </span>
-        </section>
-        <p>&#169 2023 - Todos os direitos reservados</p>
-    </footer>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <!-- <footer class="">
+        <p class="text-center text-secondary-emphasis bg-secondary-subtle p-1">Site desenvolvido por Stéphanie Kécia</p>
+    </footer> -->
 </body>
 
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+    });
+</script>
 </html>
