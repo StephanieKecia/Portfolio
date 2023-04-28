@@ -52,15 +52,11 @@ body{
     margin-top: 100px;
     margin: auto;
 
-
-    
 }
 
 .button__home{
     width: 150px;
     margin: auto;
-    
-
 }
 
 .home__conteudo p{
@@ -96,13 +92,18 @@ body{
     margin: auto;
 }
 
-.imagem__js{
+.img__js{
     width: 60px;
     margin: auto;
     margin-top: 5px;
     margin-bottom: 1px;
 }
 
+.img__python{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 11px;
+}
 
 .titulo_conhec{
     margin-top: 75px;
