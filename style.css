@@ -19,6 +19,7 @@
     padding: 15px;
 }
 
+
 .titulo__font{
     font-family: 'Lobster', cursive;
     font-size: 3.5em;
@@ -29,8 +30,11 @@
 }
 
 body{
-    height: 90vh;
     overflow-x: hidden;
+}
+
+.home__main {
+    height: 100vh;
 }
 
 .home__imagem{
@@ -61,6 +65,44 @@ body{
 
 .home__conteudo p{
     margin-top: 30px;
+}
+
+.nav-link:hover {
+    color: #E8BB30;
+}
+
+.dropdown-item:hover {
+    background-color: #E8BB30;
+    color: white;
+}
+
+.sobre-mim {
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+
+.sobre-mim div {
+    width: 50%;
+    text-align: center;
+    
+}
+
+.sobre-mim div h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 3.5em;
+}
+
+.sobre-mim div p {
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: justify;
+    padding-top: 26px;
 }
 
 
@@ -136,7 +178,25 @@ body{
     font-size: 18px;
 }
 
+.container-button {
+    text-align: center;
+}
 
+.button-cert {
+    padding: 16px 42px;
+    border-width: 2px;
+    border-radius: 48px;
+    /* font-weight: 500; */
+    font-size: 18px;
+}
+
+.button-cert:hover {
+    background-color: #E8BB30;
+    border-color: #E8BB30;
+    color: white;
+    
+    
+}
 
 .text-muted{
     margin-bottom: 0;

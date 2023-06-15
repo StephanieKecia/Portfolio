@@ -12,25 +12,34 @@
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Portfólio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                  <!-- <a class="nav-link" href="#">Habilidades</a> -->
-                  <a class="nav-link active" href="projetos.html">Projetos</a>
-                  <a class="nav-link" href="formacao.html">Formação</a>
-                  <a class="nav-link" href="https://drive.google.com/drive/folders/1z-dunu3SmwRz6UQWZYhXWQS5mCsTFL_9?usp=share_link" target="_blank">Certificados</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Portfólio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="index.html">Início</a>
+            <!-- <a class="nav-link" href="#">Habilidades</a> -->
+            <a class="nav-link" href="index.html#sobre-mim">Sobre mim</a>
+            <a class="nav-link active" href="projetos.html">Projetos</a>
+            <a class="nav-link" href="formacao.html">Formação</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#" target="_blank">Contato</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.instagram.com/stephaniekecia/" target="_blank">Instagram</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/st%C3%A9phanie-k%C3%A9cia/" target="_blank">LinkedIn</a></li>
+                <li><a class="dropdown-item" href="https://github.com/StephanieKecia" target="_blank">GitHub</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
     <main class="main">  
         <section class="projetos">
@@ -44,14 +53,6 @@
                     <a href="https://projetoandroidsteph.netlify.app/" target="_blank" class="btn btn-dark">Visualizar Projeto</a>
                   </div>
                 </div> -->
-                <div class="card m-4 pro_card" style="width: 18rem;">
-                  <!-- <img src="" class="card-img-top" alt="..."> -->
-                  <div class="card-body">
-                    <h5 class="card-title">Barbearia</h5>
-                    <p class="card-text">Tecnologias utilizadas: HTML5, CSS3</p>
-                    <a href="https://barbeariasteph.netlify.app/index.html" target="_blank" class="btn btn-dark">Visualizar Projeto</a>
-                  </div>
-                </div>
                 <!-- <div class="card m-4 pro_card" style="width: 18rem;"> -->
                   <!-- <img src="..." class="card-img-top" alt="..."> -->
                   <!-- <div class="card-body">
@@ -71,9 +72,33 @@
                 <div class="card m-4 pro_card" style="width: 18rem;">
                   <!-- <img src="..." class="card-img-top" alt="..."> -->
                   <div class="card-body">
+                    <h5 class="card-title">Meteora</h5>
+                    <p class="card-text">Tecnologias utilizadas: HTML5,  Bootstrap</p>
+                    <a href="https://meteorasteph.netlify.app/" target="_blank" class="btn btn-dark" >Visualizar Projeto</a>
+                  </div>
+                </div>
+                <div class="card m-4 pro_card" style="width: 18rem;">
+                  <!-- <img src="..." class="card-img-top" alt="..."> -->
+                  <div class="card-body">
+                    <h5 class="card-title">Lista de compras</h5>
+                    <p class="card-text">Tecnologias utilizadas: HTML5, CSS3 e JavaScript</p>
+                    <a href="https://ltcompras.netlify.app/" target="_blank" class="btn btn-dark" >Visualizar Projeto</a>
+                  </div>
+                </div>
+                <div class="card m-4 pro_card" style="width: 18rem;">
+                  <!-- <img src="" class="card-img-top" alt="..."> -->
+                  <div class="card-body">
+                    <h5 class="card-title">Barbearia</h5>
+                    <p class="card-text">Tecnologias utilizadas: HTML5, CSS3</p>
+                    <a href="https://barbeariasteph.netlify.app/index.html" target="_blank" class="btn btn-dark">Visualizar Projeto</a>
+                  </div>
+                </div>
+                <div class="card m-4 pro_card" style="width: 18rem;">
+                  <!-- <img src="..." class="card-img-top" alt="..."> -->
+                  <div class="card-body">
                     <h5 class="card-title">Organo</h5>
-                    <p class="card-text">Tecnologias utilizadas: React</p>
-                    <a href="#" class="btn btn-dark disabled" target="_blank">Em processo...</a>
+                    <p class="card-text mt-4">Tecnologias utilizadas: React</p>
+                    <a href="#" class="btn btn-dark disabled mt-2" target="_blank">Em processo...</a>
                   </div>
                 </div>
                 <div class="card m-4 pro_card" style="width: 18rem;">
@@ -87,7 +112,7 @@
                 <div class="card m-4 pro_card" style="width: 18rem;">
                   <!-- <img src="..." class="card-img-top" alt="..."> -->
                   <div class="card-body">
-                    <h5 class="card-title">Desfrute Açaí</h5>
+                    <h5 class="card-title">Açaí</h5>
                     <p class="card-text">Tecnologias utilizadas: WordPress</p>
                     <a href="#" class="btn btn-dark disabled" target="_blank">Em processo...</a>
                   </div>
