@@ -667,7 +667,6 @@ a:hover {
   color: #fff;
 }
 
-
 /*======================================
 //--//-->   ABOUT
 ======================================*/
@@ -784,7 +783,6 @@ a:hover {
 .work-img {
   display: block;
   overflow: hidden;
-  /* height: 200px; */
 }
 
 .work-img img {
@@ -1083,7 +1081,7 @@ footer .copyright {
 
 footer .credits {
   margin-bottom: 0;
-  font-size: 2px;
+  font-size: 4px;
   color: #8400ff;
 }
 
