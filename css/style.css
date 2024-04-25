@@ -82,16 +82,6 @@ a:hover {
   overflow: hidden;
 }
 
-#home{
-  background-image: url(../img/intro-bg-2.jpg);
-}
-
-@media (min-width: 230px) {
-  #home{
-    background-image: url(../img/intro-bg-2-mob.jpg);
-  }
-}
-
 
 .bg-image {
   background-repeat: no-repeat;
